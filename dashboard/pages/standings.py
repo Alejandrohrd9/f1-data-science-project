@@ -33,26 +33,24 @@ if selected_season:
 
     # Filter data for season 2024
     season_df = results_data[results_data['season'] == selected_season]
+    season_df['driverFullName'] = season_df['driverName'] + " " + season_df['driverSurname']
 
-    st.title(f"Clasificaciones para la temporada {selected_season}")
-    st.subtitle(f"Este gráfico muestra los puntos ganados por piloto en cada carrera de la temporada {selected_season}.")
+    st.header(f"Clasificaciones para la temporada {selected_season}")
 
     # Plotting using Plotly Express
     fig = px.line(season_df, 
-                x='circuitId', 
+                x='circuitName', 
                 y='cumulative_points', 
-                color='driverId', 
+                color='driverFullName', 
                 markers=True, 
-                title='Puntos Ganados por Piloto en Cada Carrera',
-                labels={'circuitId': 'Carrera', 'cumulative_points': 'Puntos Ganados', 'driverId': 'Piloto'})
+                title=f'Puntos ganados por piloto en cada carrera de la temporada {selected_season}',
+                labels={'circuitName': 'Gran Premio', 'cumulative_points': 'Puntos Ganados', 'driverFullName': 'Piloto'})
 
     # Display the plot in Streamlit
     st.plotly_chart(fig)
 
 
-    ## Constructors ##
-    st.subtitle(f"Este gráfico muestra la clasificación de constructores en la temporada {selected_season}.")
-    
+    ## Constructors ##    
     columns_for_constructos = ['season', 'constructorId', 'constructorName', 'constructorNationality', 'points']
     filtered_constructors_df = season_df[columns_for_constructos].copy()
 
@@ -64,6 +62,7 @@ if selected_season:
         x=ordered_constructors_df['points'], 
         y=ordered_constructors_df['constructorName'], 
         orientation='h',
+        title=f'Clasificación de constructores en la temporada {selected_season}',
         labels={'points': 'Points', 'constructorName': 'Constructor'}
     )
     # Display the plot in Streamlit
