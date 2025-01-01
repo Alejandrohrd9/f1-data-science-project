@@ -64,11 +64,11 @@ if selected_season:
 
 
     ## Constructors ##    
-    columns_for_constructos = ['season', 'constructorId', 'constructorName', 'constructorNationality', 'points']
+    columns_for_constructos = ['season', 'constructorId', 'constructorName', 'constructorNationality', 'points', 'weekendPoints']
     filtered_constructors_df = season_df[columns_for_constructos].copy()
 
     grouped_constructors_df = filtered_constructors_df.groupby(['season','constructorId', 'constructorName'])['weekendPoints'].sum().reset_index()
-    ordered_constructors_df = grouped_constructors_df.sort_values(by='points', ascending=True)
+    ordered_constructors_df = grouped_constructors_df.sort_values(by='weekendPoints', ascending=True)
 
     fig_constructors = px.bar(
         ordered_constructors_df, 
