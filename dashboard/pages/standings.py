@@ -29,13 +29,16 @@ if selected_season:
     results_data = results_data.sort_values(by=['season', 'round', 'driverId'])
 
     # Calculate accumulated by drivers per season
-    results_data['cumulative_points'] = results_data.groupby(['season','driverId'])['points'].cumsum()
+    results_data['cumulative_points'] = results_data.groupby(['season','driverId'])['weekendPoints'].cumsum()
 
     # Filter data for season 2024
     season_df = results_data[results_data['season'] == selected_season]
     season_df['driverFullName'] = season_df['driverName'] + " " + season_df['driverSurname']
 
     st.header(f"Clasificaciones para la temporada {selected_season}")
+
+    sorted_drivers = season_df.groupby('driverFullName')['cumulative_points'].max().sort_values(ascending=False).index
+
 
     # Plotting using Plotly Express
     fig = px.line(season_df, 
@@ -44,7 +47,17 @@ if selected_season:
                 color='driverFullName', 
                 markers=True, 
                 title=f'Puntos ganados por piloto en cada carrera de la temporada {selected_season}',
-                labels={'circuitName': 'Gran Premio', 'cumulative_points': 'Puntos Ganados', 'driverFullName': 'Piloto'})
+                labels={'circuitName': 'Gran Premio', 'cumulative_points': 'Puntos Ganados', 'driverFullName': 'Piloto'},
+                category_orders={'driverFullName': sorted_drivers})  # Sort legend by accumulated points
+
+    fig.update_layout(
+        height=600,  # Aumenta la altura aquí
+        legend=dict(
+            title="Piloto",
+            x=1,  
+            y=1
+        )
+    )
 
     # Display the plot in Streamlit
     st.plotly_chart(fig)
