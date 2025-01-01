@@ -67,16 +67,16 @@ if selected_season:
     columns_for_constructos = ['season', 'constructorId', 'constructorName', 'constructorNationality', 'points']
     filtered_constructors_df = season_df[columns_for_constructos].copy()
 
-    grouped_constructors_df = filtered_constructors_df.groupby(['season','constructorId', 'constructorName'])['points'].sum().reset_index()
+    grouped_constructors_df = filtered_constructors_df.groupby(['season','constructorId', 'constructorName'])['weekendPoints'].sum().reset_index()
     ordered_constructors_df = grouped_constructors_df.sort_values(by='points', ascending=True)
 
     fig_constructors = px.bar(
         ordered_constructors_df, 
-        x=ordered_constructors_df['points'], 
+        x=ordered_constructors_df['weekendPoints'], 
         y=ordered_constructors_df['constructorName'], 
         orientation='h',
         title=f'Clasificación de constructores en la temporada {selected_season}',
-        labels={'points': 'Points', 'constructorName': 'Constructor'}
+        labels={'weekendPoints': 'Points', 'constructorName': 'Constructor'}
     )
     # Display the plot in Streamlit
     st.plotly_chart(fig_constructors)
