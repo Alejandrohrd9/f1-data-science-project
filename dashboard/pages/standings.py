@@ -8,7 +8,7 @@ st.set_page_config(
 st.title('Clasificaciones')
 
 def load_data():
-    results_data = pd.read_csv('data/cleaned_results_2000-2024.csv')
+    results_data = pd.read_csv('data/race_and_sprint_results_2000-2024.csv.csv')
     return results_data
 
 results_data = load_data()
