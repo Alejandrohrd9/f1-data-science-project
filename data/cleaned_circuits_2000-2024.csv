@@ -1,0 +1,480 @@
+season,raceName,round,date,circuitId,circuitName,latitude,longitude,locality,country,continent
+2000,Australian Grand Prix,1,2000-03-12,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2000,Brazilian Grand Prix,2,2000-03-26,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2000,San Marino Grand Prix,3,2000-04-09,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2000,British Grand Prix,4,2000-04-23,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2000,Spanish Grand Prix,5,2000-05-07,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2000,European Grand Prix,6,2000-05-21,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2000,Monaco Grand Prix,7,2000-06-04,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2000,Canadian Grand Prix,8,2000-06-18,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2000,French Grand Prix,9,2000-07-02,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2000,Austrian Grand Prix,10,2000-07-16,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2000,German Grand Prix,11,2000-07-30,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2000,Hungarian Grand Prix,12,2000-08-13,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2000,Belgian Grand Prix,13,2000-08-27,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2000,Italian Grand Prix,14,2000-09-10,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2000,United States Grand Prix,15,2000-09-24,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2000,Japanese Grand Prix,16,2000-10-08,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2000,Malaysian Grand Prix,17,2000-10-22,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2001,Australian Grand Prix,1,2001-03-04,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2001,Malaysian Grand Prix,2,2001-03-18,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2001,Brazilian Grand Prix,3,2001-04-01,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2001,San Marino Grand Prix,4,2001-04-15,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2001,Spanish Grand Prix,5,2001-04-29,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2001,Austrian Grand Prix,6,2001-05-13,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2001,Monaco Grand Prix,7,2001-05-27,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2001,Canadian Grand Prix,8,2001-06-10,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2001,European Grand Prix,9,2001-06-24,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2001,French Grand Prix,10,2001-07-01,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2001,British Grand Prix,11,2001-07-15,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2001,German Grand Prix,12,2001-07-29,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2001,Hungarian Grand Prix,13,2001-08-19,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2001,Belgian Grand Prix,14,2001-09-02,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2001,Italian Grand Prix,15,2001-09-16,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2001,United States Grand Prix,16,2001-09-30,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2001,Japanese Grand Prix,17,2001-10-14,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2002,Australian Grand Prix,1,2002-03-03,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2002,Malaysian Grand Prix,2,2002-03-17,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2002,Brazilian Grand Prix,3,2002-03-31,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2002,San Marino Grand Prix,4,2002-04-14,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2002,Spanish Grand Prix,5,2002-04-28,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2002,Austrian Grand Prix,6,2002-05-12,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2002,Monaco Grand Prix,7,2002-05-26,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2002,Canadian Grand Prix,8,2002-06-09,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2002,European Grand Prix,9,2002-06-23,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2002,British Grand Prix,10,2002-07-07,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2002,French Grand Prix,11,2002-07-21,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2002,German Grand Prix,12,2002-07-28,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2002,Hungarian Grand Prix,13,2002-08-18,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2002,Belgian Grand Prix,14,2002-09-01,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2002,Italian Grand Prix,15,2002-09-15,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2002,United States Grand Prix,16,2002-09-29,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2002,Japanese Grand Prix,17,2002-10-13,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2003,Australian Grand Prix,1,2003-03-09,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2003,Malaysian Grand Prix,2,2003-03-23,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2003,Brazilian Grand Prix,3,2003-04-06,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2003,San Marino Grand Prix,4,2003-04-20,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2003,Spanish Grand Prix,5,2003-05-04,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2003,Austrian Grand Prix,6,2003-05-18,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2003,Monaco Grand Prix,7,2003-06-01,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2003,Canadian Grand Prix,8,2003-06-15,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2003,European Grand Prix,9,2003-06-29,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2003,French Grand Prix,10,2003-07-06,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2003,British Grand Prix,11,2003-07-20,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2003,German Grand Prix,12,2003-08-03,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2003,Hungarian Grand Prix,13,2003-08-24,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2003,Italian Grand Prix,14,2003-09-14,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2003,United States Grand Prix,15,2003-09-28,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2003,Japanese Grand Prix,16,2003-10-12,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2004,Australian Grand Prix,1,2004-03-07,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2004,Malaysian Grand Prix,2,2004-03-21,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2004,Bahrain Grand Prix,3,2004-04-04,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2004,San Marino Grand Prix,4,2004-04-25,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2004,Spanish Grand Prix,5,2004-05-09,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2004,Monaco Grand Prix,6,2004-05-23,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2004,European Grand Prix,7,2004-05-30,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2004,Canadian Grand Prix,8,2004-06-13,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2004,United States Grand Prix,9,2004-06-20,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2004,French Grand Prix,10,2004-07-04,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2004,British Grand Prix,11,2004-07-11,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2004,German Grand Prix,12,2004-07-25,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2004,Hungarian Grand Prix,13,2004-08-15,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2004,Belgian Grand Prix,14,2004-08-29,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2004,Italian Grand Prix,15,2004-09-12,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2004,Chinese Grand Prix,16,2004-09-26,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2004,Japanese Grand Prix,17,2004-10-10,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2004,Brazilian Grand Prix,18,2004-10-24,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2005,Australian Grand Prix,1,2005-03-06,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2005,Malaysian Grand Prix,2,2005-03-20,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2005,Bahrain Grand Prix,3,2005-04-03,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2005,San Marino Grand Prix,4,2005-04-24,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2005,Spanish Grand Prix,5,2005-05-08,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2005,Monaco Grand Prix,6,2005-05-22,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2005,European Grand Prix,7,2005-05-29,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2005,Canadian Grand Prix,8,2005-06-12,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2005,United States Grand Prix,9,2005-06-19,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2005,French Grand Prix,10,2005-07-03,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2005,British Grand Prix,11,2005-07-10,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2005,German Grand Prix,12,2005-07-24,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2005,Hungarian Grand Prix,13,2005-07-31,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2005,Turkish Grand Prix,14,2005-08-21,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2005,Italian Grand Prix,15,2005-09-04,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2005,Belgian Grand Prix,16,2005-09-11,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2005,Brazilian Grand Prix,17,2005-09-25,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2005,Japanese Grand Prix,18,2005-10-09,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2005,Chinese Grand Prix,19,2005-10-16,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2006,Bahrain Grand Prix,1,2006-03-12,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2006,Malaysian Grand Prix,2,2006-03-19,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2006,Australian Grand Prix,3,2006-04-02,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2006,San Marino Grand Prix,4,2006-04-23,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2006,European Grand Prix,5,2006-05-07,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2006,Spanish Grand Prix,6,2006-05-14,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2006,Monaco Grand Prix,7,2006-05-28,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2006,British Grand Prix,8,2006-06-11,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2006,Canadian Grand Prix,9,2006-06-25,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2006,United States Grand Prix,10,2006-07-02,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2006,French Grand Prix,11,2006-07-16,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2006,German Grand Prix,12,2006-07-30,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2006,Hungarian Grand Prix,13,2006-08-06,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2006,Turkish Grand Prix,14,2006-08-27,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2006,Italian Grand Prix,15,2006-09-10,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2006,Chinese Grand Prix,16,2006-10-01,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2006,Japanese Grand Prix,17,2006-10-08,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2006,Brazilian Grand Prix,18,2006-10-22,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2007,Australian Grand Prix,1,2007-03-18,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2007,Malaysian Grand Prix,2,2007-04-08,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2007,Bahrain Grand Prix,3,2007-04-15,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2007,Spanish Grand Prix,4,2007-05-13,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2007,Monaco Grand Prix,5,2007-05-27,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2007,Canadian Grand Prix,6,2007-06-10,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2007,United States Grand Prix,7,2007-06-17,indianapolis,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,United States,North America
+2007,French Grand Prix,8,2007-07-01,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2007,British Grand Prix,9,2007-07-08,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2007,European Grand Prix,10,2007-07-22,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2007,Hungarian Grand Prix,11,2007-08-05,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2007,Turkish Grand Prix,12,2007-08-26,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2007,Italian Grand Prix,13,2007-09-09,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2007,Belgian Grand Prix,14,2007-09-16,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2007,Japanese Grand Prix,15,2007-09-30,fuji,Fuji Speedway,35.3717,138.927,Oyama,Japan,Asia
+2007,Chinese Grand Prix,16,2007-10-07,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2007,Brazilian Grand Prix,17,2007-10-21,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2008,Australian Grand Prix,1,2008-03-16,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2008,Malaysian Grand Prix,2,2008-03-23,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2008,Bahrain Grand Prix,3,2008-04-06,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2008,Spanish Grand Prix,4,2008-04-27,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2008,Turkish Grand Prix,5,2008-05-11,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2008,Monaco Grand Prix,6,2008-05-25,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2008,Canadian Grand Prix,7,2008-06-08,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2008,French Grand Prix,8,2008-06-22,magny_cours,Circuit de Nevers Magny-Cours,46.8642,3.16361,Magny Cours,France,Europe
+2008,British Grand Prix,9,2008-07-06,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2008,German Grand Prix,10,2008-07-20,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2008,Hungarian Grand Prix,11,2008-08-03,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2008,European Grand Prix,12,2008-08-24,valencia,Valencia Street Circuit,39.4589,-0.331667,Valencia,Spain,Europe
+2008,Belgian Grand Prix,13,2008-09-07,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2008,Italian Grand Prix,14,2008-09-14,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2008,Singapore Grand Prix,15,2008-09-28,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2008,Japanese Grand Prix,16,2008-10-12,fuji,Fuji Speedway,35.3717,138.927,Oyama,Japan,Asia
+2008,Chinese Grand Prix,17,2008-10-19,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2008,Brazilian Grand Prix,18,2008-11-02,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2009,Australian Grand Prix,1,2009-03-29,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2009,Malaysian Grand Prix,2,2009-04-05,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2009,Chinese Grand Prix,3,2009-04-19,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2009,Bahrain Grand Prix,4,2009-04-26,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2009,Spanish Grand Prix,5,2009-05-10,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2009,Monaco Grand Prix,6,2009-05-24,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2009,Turkish Grand Prix,7,2009-06-07,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2009,British Grand Prix,8,2009-06-21,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2009,German Grand Prix,9,2009-07-12,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2009,Hungarian Grand Prix,10,2009-07-26,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2009,European Grand Prix,11,2009-08-23,valencia,Valencia Street Circuit,39.4589,-0.331667,Valencia,Spain,Europe
+2009,Belgian Grand Prix,12,2009-08-30,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2009,Italian Grand Prix,13,2009-09-13,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2009,Singapore Grand Prix,14,2009-09-27,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2009,Japanese Grand Prix,15,2009-10-04,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2009,Brazilian Grand Prix,16,2009-10-18,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2009,Abu Dhabi Grand Prix,17,2009-11-01,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2010,Bahrain Grand Prix,1,2010-03-14,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2010,Australian Grand Prix,2,2010-03-28,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2010,Malaysian Grand Prix,3,2010-04-04,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2010,Chinese Grand Prix,4,2010-04-18,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2010,Spanish Grand Prix,5,2010-05-09,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2010,Monaco Grand Prix,6,2010-05-16,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2010,Turkish Grand Prix,7,2010-05-30,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2010,Canadian Grand Prix,8,2010-06-13,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2010,European Grand Prix,9,2010-06-27,valencia,Valencia Street Circuit,39.4589,-0.331667,Valencia,Spain,Europe
+2010,British Grand Prix,10,2010-07-11,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2010,German Grand Prix,11,2010-07-25,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2010,Hungarian Grand Prix,12,2010-08-01,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2010,Belgian Grand Prix,13,2010-08-29,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2010,Italian Grand Prix,14,2010-09-12,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2010,Singapore Grand Prix,15,2010-09-26,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2010,Japanese Grand Prix,16,2010-10-10,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2010,Korean Grand Prix,17,2010-10-24,yeongam,Korean International Circuit,34.7333,126.417,Yeongam County,South Korea,Asia
+2010,Brazilian Grand Prix,18,2010-11-07,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2010,Abu Dhabi Grand Prix,19,2010-11-14,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2011,Australian Grand Prix,1,2011-03-27,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2011,Malaysian Grand Prix,2,2011-04-10,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2011,Chinese Grand Prix,3,2011-04-17,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2011,Turkish Grand Prix,4,2011-05-08,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2011,Spanish Grand Prix,5,2011-05-22,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2011,Monaco Grand Prix,6,2011-05-29,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2011,Canadian Grand Prix,7,2011-06-12,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2011,European Grand Prix,8,2011-06-26,valencia,Valencia Street Circuit,39.4589,-0.331667,Valencia,Spain,Europe
+2011,British Grand Prix,9,2011-07-10,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2011,German Grand Prix,10,2011-07-24,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2011,Hungarian Grand Prix,11,2011-07-31,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2011,Belgian Grand Prix,12,2011-08-28,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2011,Italian Grand Prix,13,2011-09-11,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2011,Singapore Grand Prix,14,2011-09-25,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2011,Japanese Grand Prix,15,2011-10-09,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2011,Korean Grand Prix,16,2011-10-16,yeongam,Korean International Circuit,34.7333,126.417,Yeongam County,South Korea,Asia
+2011,Indian Grand Prix,17,2011-10-30,buddh,Buddh International Circuit,28.3487,77.5331,Uttar Pradesh,India,Asia
+2011,Abu Dhabi Grand Prix,18,2011-11-13,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2011,Brazilian Grand Prix,19,2011-11-27,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2012,Australian Grand Prix,1,2012-03-18,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2012,Malaysian Grand Prix,2,2012-03-25,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2012,Chinese Grand Prix,3,2012-04-15,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2012,Bahrain Grand Prix,4,2012-04-22,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2012,Spanish Grand Prix,5,2012-05-13,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2012,Monaco Grand Prix,6,2012-05-27,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2012,Canadian Grand Prix,7,2012-06-10,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2012,European Grand Prix,8,2012-06-24,valencia,Valencia Street Circuit,39.4589,-0.331667,Valencia,Spain,Europe
+2012,British Grand Prix,9,2012-07-08,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2012,German Grand Prix,10,2012-07-22,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2012,Hungarian Grand Prix,11,2012-07-29,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2012,Belgian Grand Prix,12,2012-09-02,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2012,Italian Grand Prix,13,2012-09-09,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2012,Singapore Grand Prix,14,2012-09-23,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2012,Japanese Grand Prix,15,2012-10-07,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2012,Korean Grand Prix,16,2012-10-14,yeongam,Korean International Circuit,34.7333,126.417,Yeongam County,South Korea,Asia
+2012,Indian Grand Prix,17,2012-10-28,buddh,Buddh International Circuit,28.3487,77.5331,Uttar Pradesh,India,Asia
+2012,Abu Dhabi Grand Prix,18,2012-11-04,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2012,United States Grand Prix,19,2012-11-18,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2012,Brazilian Grand Prix,20,2012-11-25,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2013,Australian Grand Prix,1,2013-03-17,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2013,Malaysian Grand Prix,2,2013-03-24,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2013,Chinese Grand Prix,3,2013-04-14,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2013,Bahrain Grand Prix,4,2013-04-21,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2013,Spanish Grand Prix,5,2013-05-12,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2013,Monaco Grand Prix,6,2013-05-26,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2013,Canadian Grand Prix,7,2013-06-09,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2013,British Grand Prix,8,2013-06-30,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2013,German Grand Prix,9,2013-07-07,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2013,Hungarian Grand Prix,10,2013-07-28,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2013,Belgian Grand Prix,11,2013-08-25,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2013,Italian Grand Prix,12,2013-09-08,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2013,Singapore Grand Prix,13,2013-09-22,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2013,Korean Grand Prix,14,2013-10-06,yeongam,Korean International Circuit,34.7333,126.417,Yeongam County,South Korea,Asia
+2013,Japanese Grand Prix,15,2013-10-13,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2013,Indian Grand Prix,16,2013-10-27,buddh,Buddh International Circuit,28.3487,77.5331,Uttar Pradesh,India,Asia
+2013,Abu Dhabi Grand Prix,17,2013-11-03,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2013,United States Grand Prix,18,2013-11-17,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2013,Brazilian Grand Prix,19,2013-11-24,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2014,Australian Grand Prix,1,2014-03-16,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2014,Malaysian Grand Prix,2,2014-03-30,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2014,Bahrain Grand Prix,3,2014-04-06,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2014,Chinese Grand Prix,4,2014-04-20,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2014,Spanish Grand Prix,5,2014-05-11,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2014,Monaco Grand Prix,6,2014-05-25,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2014,Canadian Grand Prix,7,2014-06-08,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2014,Austrian Grand Prix,8,2014-06-22,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2014,British Grand Prix,9,2014-07-06,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2014,German Grand Prix,10,2014-07-20,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2014,Hungarian Grand Prix,11,2014-07-27,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2014,Belgian Grand Prix,12,2014-08-24,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2014,Italian Grand Prix,13,2014-09-07,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2014,Singapore Grand Prix,14,2014-09-21,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2014,Japanese Grand Prix,15,2014-10-05,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2014,Russian Grand Prix,16,2014-10-12,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2014,United States Grand Prix,17,2014-11-02,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2014,Brazilian Grand Prix,18,2014-11-09,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2014,Abu Dhabi Grand Prix,19,2014-11-23,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2015,Australian Grand Prix,1,2015-03-15,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2015,Malaysian Grand Prix,2,2015-03-29,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2015,Chinese Grand Prix,3,2015-04-12,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2015,Bahrain Grand Prix,4,2015-04-19,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2015,Spanish Grand Prix,5,2015-05-10,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2015,Monaco Grand Prix,6,2015-05-24,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2015,Canadian Grand Prix,7,2015-06-07,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2015,Austrian Grand Prix,8,2015-06-21,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2015,British Grand Prix,9,2015-07-05,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2015,Hungarian Grand Prix,10,2015-07-26,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2015,Belgian Grand Prix,11,2015-08-23,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2015,Italian Grand Prix,12,2015-09-06,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2015,Singapore Grand Prix,13,2015-09-20,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2015,Japanese Grand Prix,14,2015-09-27,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2015,Russian Grand Prix,15,2015-10-11,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2015,United States Grand Prix,16,2015-10-25,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2015,Mexican Grand Prix,17,2015-11-01,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2015,Brazilian Grand Prix,18,2015-11-15,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2015,Abu Dhabi Grand Prix,19,2015-11-29,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2016,Australian Grand Prix,1,2016-03-20,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2016,Bahrain Grand Prix,2,2016-04-03,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2016,Chinese Grand Prix,3,2016-04-17,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2016,Russian Grand Prix,4,2016-05-01,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2016,Spanish Grand Prix,5,2016-05-15,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2016,Monaco Grand Prix,6,2016-05-29,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2016,Canadian Grand Prix,7,2016-06-12,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2016,European Grand Prix,8,2016-06-19,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2016,Austrian Grand Prix,9,2016-07-03,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2016,British Grand Prix,10,2016-07-10,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2016,Hungarian Grand Prix,11,2016-07-24,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2016,German Grand Prix,12,2016-07-31,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2016,Belgian Grand Prix,13,2016-08-28,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2016,Italian Grand Prix,14,2016-09-04,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2016,Singapore Grand Prix,15,2016-09-18,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2016,Malaysian Grand Prix,16,2016-10-02,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2016,Japanese Grand Prix,17,2016-10-09,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2016,United States Grand Prix,18,2016-10-23,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2016,Mexican Grand Prix,19,2016-10-30,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2016,Brazilian Grand Prix,20,2016-11-13,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2016,Abu Dhabi Grand Prix,21,2016-11-27,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2017,Australian Grand Prix,1,2017-03-26,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2017,Chinese Grand Prix,2,2017-04-09,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2017,Bahrain Grand Prix,3,2017-04-16,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2017,Russian Grand Prix,4,2017-04-30,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2017,Spanish Grand Prix,5,2017-05-14,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2017,Monaco Grand Prix,6,2017-05-28,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2017,Canadian Grand Prix,7,2017-06-11,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2017,Azerbaijan Grand Prix,8,2017-06-25,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2017,Austrian Grand Prix,9,2017-07-09,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2017,British Grand Prix,10,2017-07-16,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2017,Hungarian Grand Prix,11,2017-07-30,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2017,Belgian Grand Prix,12,2017-08-27,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2017,Italian Grand Prix,13,2017-09-03,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2017,Singapore Grand Prix,14,2017-09-17,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2017,Malaysian Grand Prix,15,2017-10-01,sepang,Sepang International Circuit,2.76083,101.738,Kuala Lumpur,Malaysia,Asia
+2017,Japanese Grand Prix,16,2017-10-08,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2017,United States Grand Prix,17,2017-10-22,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2017,Mexican Grand Prix,18,2017-10-29,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2017,Brazilian Grand Prix,19,2017-11-12,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2017,Abu Dhabi Grand Prix,20,2017-11-26,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2018,Australian Grand Prix,1,2018-03-25,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2018,Bahrain Grand Prix,2,2018-04-08,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2018,Chinese Grand Prix,3,2018-04-15,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2018,Azerbaijan Grand Prix,4,2018-04-29,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2018,Spanish Grand Prix,5,2018-05-13,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2018,Monaco Grand Prix,6,2018-05-27,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2018,Canadian Grand Prix,7,2018-06-10,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2018,French Grand Prix,8,2018-06-24,ricard,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France,Europe
+2018,Austrian Grand Prix,9,2018-07-01,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2018,British Grand Prix,10,2018-07-08,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2018,German Grand Prix,11,2018-07-22,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2018,Hungarian Grand Prix,12,2018-07-29,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2018,Belgian Grand Prix,13,2018-08-26,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2018,Italian Grand Prix,14,2018-09-02,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2018,Singapore Grand Prix,15,2018-09-16,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2018,Russian Grand Prix,16,2018-09-30,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2018,Japanese Grand Prix,17,2018-10-07,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2018,United States Grand Prix,18,2018-10-21,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2018,Mexican Grand Prix,19,2018-10-28,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2018,Brazilian Grand Prix,20,2018-11-11,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2018,Abu Dhabi Grand Prix,21,2018-11-25,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2019,Australian Grand Prix,1,2019-03-17,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2019,Bahrain Grand Prix,2,2019-03-31,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2019,Chinese Grand Prix,3,2019-04-14,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2019,Azerbaijan Grand Prix,4,2019-04-28,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2019,Spanish Grand Prix,5,2019-05-12,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2019,Monaco Grand Prix,6,2019-05-26,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2019,Canadian Grand Prix,7,2019-06-09,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2019,French Grand Prix,8,2019-06-23,ricard,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France,Europe
+2019,Austrian Grand Prix,9,2019-06-30,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2019,British Grand Prix,10,2019-07-14,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2019,German Grand Prix,11,2019-07-28,hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany,Europe
+2019,Hungarian Grand Prix,12,2019-08-04,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2019,Belgian Grand Prix,13,2019-09-01,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2019,Italian Grand Prix,14,2019-09-08,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2019,Singapore Grand Prix,15,2019-09-22,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2019,Russian Grand Prix,16,2019-09-29,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2019,Japanese Grand Prix,17,2019-10-13,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2019,Mexican Grand Prix,18,2019-10-27,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2019,United States Grand Prix,19,2019-11-03,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2019,Brazilian Grand Prix,20,2019-11-17,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2019,Abu Dhabi Grand Prix,21,2019-12-01,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2020,Austrian Grand Prix,1,2020-07-05,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2020,Styrian Grand Prix,2,2020-07-12,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2020,Hungarian Grand Prix,3,2020-07-19,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2020,British Grand Prix,4,2020-08-02,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2020,70th Anniversary Grand Prix,5,2020-08-09,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2020,Spanish Grand Prix,6,2020-08-16,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2020,Belgian Grand Prix,7,2020-08-30,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2020,Italian Grand Prix,8,2020-09-06,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2020,Tuscan Grand Prix,9,2020-09-13,mugello,Autodromo Internazionale del Mugello,43.9975,11.3719,Mugello,Italy,Europe
+2020,Russian Grand Prix,10,2020-09-27,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2020,Eifel Grand Prix,11,2020-10-11,nurburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany,Europe
+2020,Portuguese Grand Prix,12,2020-10-25,portimao,Autódromo Internacional do Algarve,37.227,-8.6267,Portimão,Portugal,Europe
+2020,Emilia Romagna Grand Prix,13,2020-11-01,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2020,Turkish Grand Prix,14,2020-11-15,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2020,Bahrain Grand Prix,15,2020-11-29,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2020,Sakhir Grand Prix,16,2020-12-06,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2020,Abu Dhabi Grand Prix,17,2020-12-13,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2021,Bahrain Grand Prix,1,2021-03-28,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2021,Emilia Romagna Grand Prix,2,2021-04-18,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2021,Portuguese Grand Prix,3,2021-05-02,portimao,Autódromo Internacional do Algarve,37.227,-8.6267,Portimão,Portugal,Europe
+2021,Spanish Grand Prix,4,2021-05-09,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2021,Monaco Grand Prix,5,2021-05-23,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2021,Azerbaijan Grand Prix,6,2021-06-06,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2021,French Grand Prix,7,2021-06-20,ricard,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France,Europe
+2021,Styrian Grand Prix,8,2021-06-27,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2021,Austrian Grand Prix,9,2021-07-04,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2021,British Grand Prix,10,2021-07-18,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2021,Hungarian Grand Prix,11,2021-08-01,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2021,Belgian Grand Prix,12,2021-08-29,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2021,Dutch Grand Prix,13,2021-09-05,zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands,Europe
+2021,Italian Grand Prix,14,2021-09-12,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2021,Russian Grand Prix,15,2021-09-26,sochi,Sochi Autodrom,43.4057,39.9578,Sochi,Russia,Europe
+2021,Turkish Grand Prix,16,2021-10-10,istanbul,Istanbul Park,40.9517,29.405,Istanbul,Turkey,Asia
+2021,United States Grand Prix,17,2021-10-24,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2021,Mexico City Grand Prix,18,2021-11-07,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2021,São Paulo Grand Prix,19,2021-11-14,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2021,Qatar Grand Prix,20,2021-11-21,losail,Losail International Circuit,25.49,51.4542,Al Daayen,Qatar,Asia
+2021,Saudi Arabian Grand Prix,21,2021-12-05,jeddah,Jeddah Corniche Circuit,21.6319,39.1044,Jeddah,Saudi Arabia,Asia
+2021,Abu Dhabi Grand Prix,22,2021-12-12,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2022,Bahrain Grand Prix,1,2022-03-20,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2022,Saudi Arabian Grand Prix,2,2022-03-27,jeddah,Jeddah Corniche Circuit,21.6319,39.1044,Jeddah,Saudi Arabia,Asia
+2022,Australian Grand Prix,3,2022-04-10,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2022,Emilia Romagna Grand Prix,4,2022-04-24,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2022,Miami Grand Prix,5,2022-05-08,miami,Miami International Autodrome,25.9581,-80.2389,Miami,United States,North America
+2022,Spanish Grand Prix,6,2022-05-22,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2022,Monaco Grand Prix,7,2022-05-29,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2022,Azerbaijan Grand Prix,8,2022-06-12,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2022,Canadian Grand Prix,9,2022-06-19,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2022,British Grand Prix,10,2022-07-03,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2022,Austrian Grand Prix,11,2022-07-10,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2022,French Grand Prix,12,2022-07-24,ricard,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France,Europe
+2022,Hungarian Grand Prix,13,2022-07-31,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2022,Belgian Grand Prix,14,2022-08-28,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2022,Dutch Grand Prix,15,2022-09-04,zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands,Europe
+2022,Italian Grand Prix,16,2022-09-11,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2022,Singapore Grand Prix,17,2022-10-02,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2022,Japanese Grand Prix,18,2022-10-09,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2022,United States Grand Prix,19,2022-10-23,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2022,Mexico City Grand Prix,20,2022-10-30,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2022,São Paulo Grand Prix,21,2022-11-13,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2022,Abu Dhabi Grand Prix,22,2022-11-20,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2023,Bahrain Grand Prix,1,2023-03-05,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2023,Saudi Arabian Grand Prix,2,2023-03-19,jeddah,Jeddah Corniche Circuit,21.6319,39.1044,Jeddah,Saudi Arabia,Asia
+2023,Australian Grand Prix,3,2023-04-02,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2023,Azerbaijan Grand Prix,4,2023-04-30,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2023,Miami Grand Prix,5,2023-05-07,miami,Miami International Autodrome,25.9581,-80.2389,Miami,United States,North America
+2023,Monaco Grand Prix,6,2023-05-28,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2023,Spanish Grand Prix,7,2023-06-04,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2023,Canadian Grand Prix,8,2023-06-18,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2023,Austrian Grand Prix,9,2023-07-02,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2023,British Grand Prix,10,2023-07-09,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2023,Hungarian Grand Prix,11,2023-07-23,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2023,Belgian Grand Prix,12,2023-07-30,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2023,Dutch Grand Prix,13,2023-08-27,zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands,Europe
+2023,Italian Grand Prix,14,2023-09-03,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2023,Singapore Grand Prix,15,2023-09-17,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2023,Japanese Grand Prix,16,2023-09-24,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2023,Qatar Grand Prix,17,2023-10-08,losail,Losail International Circuit,25.49,51.4542,Al Daayen,Qatar,Asia
+2023,United States Grand Prix,18,2023-10-22,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2023,Mexico City Grand Prix,19,2023-10-29,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2023,São Paulo Grand Prix,20,2023-11-05,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2023,Las Vegas Grand Prix,21,2023-11-19,vegas,Las Vegas Strip Street Circuit,36.1147,-115.173,Las Vegas,United States,North America
+2023,Abu Dhabi Grand Prix,22,2023-11-26,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
+2024,Bahrain Grand Prix,1,2024-03-02,bahrain,Bahrain International Circuit,26.0325,50.5106,Sakhir,Bahrain,Asia
+2024,Saudi Arabian Grand Prix,2,2024-03-09,jeddah,Jeddah Corniche Circuit,21.6319,39.1044,Jeddah,Saudi Arabia,Asia
+2024,Australian Grand Prix,3,2024-03-24,albert_park,Albert Park Grand Prix Circuit,-37.8497,144.968,Melbourne,Australia,Oceania
+2024,Japanese Grand Prix,4,2024-04-07,suzuka,Suzuka Circuit,34.8431,136.541,Suzuka,Japan,Asia
+2024,Chinese Grand Prix,5,2024-04-21,shanghai,Shanghai International Circuit,31.3389,121.22,Shanghai,China,Asia
+2024,Miami Grand Prix,6,2024-05-05,miami,Miami International Autodrome,25.9581,-80.2389,Miami,United States,North America
+2024,Emilia Romagna Grand Prix,7,2024-05-19,imola,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy,Europe
+2024,Monaco Grand Prix,8,2024-05-26,monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco,Europe
+2024,Canadian Grand Prix,9,2024-06-09,villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada,North America
+2024,Spanish Grand Prix,10,2024-06-23,catalunya,Circuit de Barcelona-Catalunya,41.57,2.26111,Montmeló,Spain,Europe
+2024,Austrian Grand Prix,11,2024-06-30,red_bull_ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria,Europe
+2024,British Grand Prix,12,2024-07-07,silverstone,Silverstone Circuit,52.0786,-1.01694,Silverstone,United Kingdom,Europe
+2024,Hungarian Grand Prix,13,2024-07-21,hungaroring,Hungaroring,47.5789,19.2486,Budapest,Hungary,Europe
+2024,Belgian Grand Prix,14,2024-07-28,spa,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium,Europe
+2024,Dutch Grand Prix,15,2024-08-25,zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands,Europe
+2024,Italian Grand Prix,16,2024-09-01,monza,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy,Europe
+2024,Azerbaijan Grand Prix,17,2024-09-15,baku,Baku City Circuit,40.3725,49.8533,Baku,Azerbaijan,Asia
+2024,Singapore Grand Prix,18,2024-09-22,marina_bay,Marina Bay Street Circuit,1.2914,103.864,Marina Bay,Singapore,Asia
+2024,United States Grand Prix,19,2024-10-20,americas,Circuit of the Americas,30.1328,-97.6411,Austin,United States,North America
+2024,Mexico City Grand Prix,20,2024-10-27,rodriguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico,North America
+2024,São Paulo Grand Prix,21,2024-11-03,interlagos,Autódromo José Carlos Pace,-23.7036,-46.6997,São Paulo,Brazil,South America
+2024,Las Vegas Grand Prix,22,2024-11-23,vegas,Las Vegas Strip Street Circuit,36.1147,-115.173,Las Vegas,United States,North America
+2024,Qatar Grand Prix,23,2024-12-01,losail,Losail International Circuit,25.49,51.4542,Al Daayen,Qatar,Asia
+2024,Abu Dhabi Grand Prix,24,2024-12-08,yas_marina,Yas Marina Circuit,24.4672,54.6031,Abu Dhabi,United Arab Emirates,Asia
