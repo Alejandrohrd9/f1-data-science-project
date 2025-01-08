@@ -13,19 +13,25 @@ def load_data():
 
 circuits_data = load_data()
 
-fig = px.scatter_mapbox(
-    circuits_data,
-    lat='latitude',
-    lon='longitude'
-)
-fig.update_layout(mapbox_style="open-street-map")
+colored_circuits_data = circuits_data.copy()
+colored_circuits_data['color'] = ['2024' if val == colored_circuits_data['season'].max() else 'Historical' for val in colored_circuits_data['season']]
 
+fig = px.scatter_mapbox(
+    colored_circuits_data,
+    lat='latitude',
+    lon='longitude',
+    mapbox_style='carto-positron',
+    hover_name='circuitName',
+    color_discrete_map={
+        'Historical': 'red',
+        '2024': 'blue'
+    },
+    color='color',    
+    zoom=2
+)
 st.plotly_chart(fig)
 
-# colored_circuits_data = circuits_data.copy()
-
-# colored_circuits_data['color'] = ['red' if val == colored_circuits_data['season'].max() else 'blue' for val in colored_circuits_data['season']]
-# st.map(colored_circuits_data, latitude=colored_circuits_data['latitude'], longitude=colored_circuits_data['longitude'])
+st.map(colored_circuits_data, latitude=colored_circuits_data['latitude'], longitude=colored_circuits_data['longitude'])
 
 # Filtering by season
 seasons = sorted(circuits_data['season'].unique())
