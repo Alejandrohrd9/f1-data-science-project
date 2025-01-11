@@ -3,12 +3,12 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(
-        page_title="Circuits",
+    page_title="Circuits",
 )
 st.title('Circuitos')
 
 def load_data():
-    results_data = pd.read_csv('data/cleaned_circuits_2000-2024.csv')
+    results_data = pd.read_csv('../data/cleaned_circuits_2000-2024.csv')
     return results_data
 
 circuits_data = load_data()

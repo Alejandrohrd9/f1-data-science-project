@@ -3,12 +3,12 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(
-        page_title="Standings",
+    page_title="Standings",
 )
 st.title('Clasificaciones')
 
 def load_data():
-    results_data = pd.read_csv('data/race_and_sprint_results_2000-2024.csv')
+    results_data = pd.read_csv('../data/race_and_sprint_results_2000-2024.csv')
     return results_data
 
 results_data = load_data()
