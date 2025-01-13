@@ -13,7 +13,7 @@ def load_data():
 
 results_data = load_data()
 
-seasons = sorted(results_data['season'].unique())
+seasons = sorted(results_data['season'].unique(), reverse=True)
 
 selected_season = st.selectbox(
     "Seleccione una temporada:",
