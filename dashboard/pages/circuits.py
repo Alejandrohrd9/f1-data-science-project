@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -8,7 +9,9 @@ st.set_page_config(
 st.title('Circuitos')
 
 def load_data():
-    results_data = pd.read_csv('../data/cleaned_circuits_2000-2024.csv')
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_dir, '../../data/cleaned_circuits_2000-2024.csv')
+    results_data = pd.read_csv(data_path)
     return results_data
 
 circuits_data = load_data()
