@@ -8,12 +8,18 @@ import plotly.graph_objects as go
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(
-    page_title="Race stats",
-)
-st.title('Detalles de carrera')
-
-
+# Page setup
+st.set_page_config(page_title="Carreras", page_icon="🏁")
+st.title('🏁 Detalles de carrera')
+st.markdown(""" 
+    Aquí puedes encontrar una análisis detallado de carrera. A través de los gráficos se ofrece una visión exhastiva del rendimiendo de los pilotos durante la carrera. Puede encontrar aspectos como:
+    -  Evolución de la posición de los pilotos por vuelta 
+    -  Ganancia y pérdida de posiciones por piloto 
+    -  Estrategia de neumáticos utilizada durante la carrera 
+    -  Número medio de vueltas por neumáticos utilizado durante la carrera 
+    -  Tiempos de vuelta por pilotos y cómo de consistente han sido 
+    -  Tiempos de pitstops 
+""")
 # Selector de temporada
 # Selector de GP
 
@@ -102,8 +108,9 @@ if selected_season and selected_round and st.button("Cargar datos"):
     positions_list = positions['Abbreviation'].to_list()
 
     ### Posiciones carrera por vuelta ###
+    st.subheader("Posiciones de los pilotos por vuelta", divider="gray")
+    st.markdown("""Este gráfico de líneas muestra la evolución de la posición en carrera de los piloto a lo largo de las vueltas.""")
     laps_updated = laps.drop(columns=['Time', 'PitOutTime', 'PitInTime', 'FastF1Generated', 'FreshTyre', 'IsAccurate', 'Deleted', 'DeletedReason'], axis=1)
-    
     laps_sorted = laps_updated.sort_values(by="Position")
 
     fig = px.line(
@@ -114,29 +121,29 @@ if selected_season and selected_round and st.button("Cargar datos"):
         markers=False,
         color_discrete_sequence=px.colors.qualitative.Set1,
         category_orders={"Driver": laps_sorted["Driver"].tolist()},  # Orden personalizado
-        title="Lap Times by Driver (Ordered by Final Position)"
+        title="Tiempo de vueltas por piloto (Ordenados por posición final)"
     )
 
     fig.update_traces(
-        # marker=dict(size=6, symbol='circle'),  # Tamaño y forma de los marcadores
-        line=dict(width=2)  # Grosor de las líneas
+        line=dict(width=2)
     )
 
     fig.update_layout(
-        title="Evolución de la Posición por Vuelta",
         xaxis_title="Número de Vuelta",
         yaxis_title="Posición",
-        yaxis=dict(autorange="reversed"),  # Invertir el orden del eje Y
-        template="plotly_white",  # Fondo limpio y claro
+        yaxis=dict(autorange="reversed"),
+        template="plotly_white",
         legend_title="Pilotos",
-        height=600,  # Ajustar altura del gráfico
-        width=1000,   # Ajustar ancho del gráfico
+        height=600,
+        width=1000
     )
 
     # Mostrar el gráfico
     st.plotly_chart(fig)
 
     ### Diferencia posición de salida - posición final ###
+    st.subheader("Cambios de posición", divider="gray")
+    st.markdown("""Este gráfico de barras permite visualizar las posiciones ganadas y perdidas en carrera a partir de la posición inicial.""")
     position_changes = positions.groupby(['DriverNumber', 'Abbreviation'])['PositionChange'].mean().reset_index()
 
     fig = px.bar(
@@ -146,16 +153,24 @@ if selected_season and selected_round and st.button("Cargar datos"):
         color='PositionChange',
         orientation='h',
         category_orders={'Driver': positions_list},  # Ordenar por posiciones finales
-        title="Ganancia o Pérdida de Posiciones por Piloto"
+        title="Ganancia o Pérdida de Posiciones por Piloto",
+        labels={'PositionChange': 'Cambios de posiciones'}
     )
     fig.update_layout(
-        height=800
+        height=800,
+        legend_title="Cambios de posición",
+        xaxis_title="Número de posiciones",
+        yaxis_title="Piloto"
     )
     # Mostrar el gráfico
     st.plotly_chart(fig)
 
-
     ### Stints ###
+    st.subheader("Estrategia de neumáticos", divider="gray")
+    st.markdown("""En esta sección se muestran dos gráficos que aportan información sobre los neumáticos utilizados en carrera.
+    Un primer gráfico de barras horizontales con el que se puede visualizar el uso de neumáticos por parte de cada piloto durante la carrera, en función de los diferentes stints.
+    La longitud de la barra refleja la cantidad de vueltas que el piloto ha recorrido con un determinado compuesto de neumático.
+    El segundo gráfico, es un gráfico de barras verticales que muestra el uso promedio de neumáticos en la carrera, agrupado por tipo de compuesto.""")
     stint_col_1, stint_col_2 = st.columns(2)
     stints = laps[["Driver", "DriverNumber", "Stint", "Compound", "LapNumber"]]
     stints = stints.groupby(["Driver", "DriverNumber", "Stint", "Compound"])
@@ -188,7 +203,7 @@ if selected_season and selected_round and st.button("Cargar datos"):
                 x=[row["StintLength"]],  # Eje X es la duración del stint
                 base=previous_stint_end,  # El inicio de la barra
                 orientation='h',  # Barras horizontales
-                marker=dict(color=compound_color),  # Colores y bordes
+                marker=dict(color=compound_color),
                 name=row["Compound"],  # Nombre del compuesto para el hover,
                 hovertemplate=(
                     f"Piloto: {driver}<br>" +
@@ -212,18 +227,18 @@ if selected_season and selected_round and st.button("Cargar datos"):
             showlegend=True  # Mostrar una entrada en la leyenda para cada compuesto
     ))
 
-    # Configuración del diseño
     fig.update_layout(
         title=f"{selected_race} {selected_season}",
         height=800,
-        xaxis_title="Lap Number",
-        yaxis_title="Driver",
+        xaxis_title="Número de vuelta",
+        yaxis_title="Piloto",
         barmode='stack',  # Las barras se apilan horizontalmente
         xaxis=dict(showgrid=False, zeroline=False),  # Ocultar líneas de rejilla
         yaxis=dict(autorange="reversed"),  # Invertir el orden de los pilotos
-        template='plotly_white'  # Tema blanco limpio
+        template='plotly_white',
+        legend_title='Compuestos'
     )
-    # Mostrar el gráfico
+    # Mostrar los gráficos en columnas
     with stint_col_1:
         st.plotly_chart(fig)
 
@@ -242,25 +257,19 @@ if selected_season and selected_round and st.button("Cargar datos"):
         y='LapNumber',
         color='Compound',
         title=f'Número de vueltas por compuesto y stint',
-        labels={'LapCount': 'Número de vueltas', 'Compound': 'Compuesto', 'Stint': 'Tanda'},
+        labels={'LapNumber': 'Número de vueltas', 'Compound': 'Compuesto', 'Stint': 'Tanda'},
         color_discrete_map=compound_colors
     )
-
     with stint_col_2:
         st.plotly_chart(fig)
 
-    ### Laps x Compound ###
-    # fig = px.scatter(
-    #     laps_updated,
-    #     x='Compound',
-    #     y='LapTimeSeconds',
-    #     color='Compound',
-    #     title="Consistencia de Tiempos por Vuelta considerando el compuesto",
-    #     labels={"LapNumber": "Número de Vuelta", "LapTimeSeconds": "Tiempo por Vuelta (segundos)"},
-    #     color_discrete_map=compound_colors
-    # )
-
     ### Laps ###
+    st.subheader('Distribución de Tiempos de Vuelta por piloto', divider='gray')
+    st.markdown("""Dos gráficos que permiten analiazar los tiempos de vuelta durante el transcurso de un Gran Premio. 
+    Un primer gráfico de dispersión que muestra cómo los tiempos de vuelta de cada piloto se distribuyen a lo largo de las diferentes vueltas de la carrera, y un segundo gráfico de boxplot
+    que muestra la distribución de los tiempos de vuelta de los pilotos a lo largo de una carrera.
+    """)
+
     lap_col_1, lap_col_2 = st.columns(2)
     laps_updated['LapTimeSeconds'] = laps_updated['LapTime'].dt.total_seconds()
 
@@ -270,7 +279,7 @@ if selected_season and selected_round and st.button("Cargar datos"):
         y='LapTimeSeconds',
         color='Driver',
         title="Consistencia de Tiempos por Vuelta",
-        labels={"LapNumber": "Número de Vuelta", "LapTimeSeconds": "Tiempo por Vuelta (segundos)"},
+        labels={"LapNumber": "Número de vuelta", "LapTimeSeconds": "Tiempo por vuelta en segundos"},
         hover_data=['Compound']
     )
 
@@ -279,9 +288,11 @@ if selected_season and selected_round and st.button("Cargar datos"):
     fig.update_layout(
         template="plotly_white",
         height=600,
-        width=900
+        width=900,
+        legend_title='Pilotos'
+
     )
-    
+    # Mostrar el gráfico en Streamlit
     st.plotly_chart(fig)
 
     # Box plot
@@ -295,20 +306,17 @@ if selected_season and selected_round and st.button("Cargar datos"):
         title='Análisis de Tiempos de Vuelta por Piloto'
     )
 
-    # fig.update_layout(
-    #     title="Distribución de Tiempos de Vuelta por Piloto",
-    #     xaxis_title="Piloto",
-    #     yaxis_title="Tiempo por Vuelta (segundos)",
-    #     template="plotly_white",  # Fondo limpio
-    #     height=600,  # Ajustar altura
-    #     width=800,   # Ajustar ancho
-    #     showlegend=False  # Ocultar leyenda si no es necesaria
-    # )
-
+    fig.update_layout(
+        xaxis_title="Piloto",
+        yaxis_title="Tiempo por vuelta en segundos",
+        legend_title='Pilotos'       
+    )
     # Mostrar el gráfico en Streamlit
     st.plotly_chart(fig)
 
     ### Pitstops ###
+    st.subheader('Distribución de Tiempos de Pitstop por constructor', divider='gray')
+    st.markdown("""Este gráfico permite identificar rápidamente qué constructores tienen una mayor consistencia en sus pitstops y cuáles experimentan más variabilidad o tiempos de parada más largos en general.""")
     pitstops_df = load_data('../../data/cleaned_pitstops.csv')
     pitstops_df['duration'] = pitstops_df['duration'].apply(lambda duration: duration_to_seconds(duration))
 
@@ -320,7 +328,15 @@ if selected_season and selected_round and st.button("Cargar datos"):
         color_discrete_map=constructor_color_dict,
         box=True,
         points="all",
-        hover_data=['constructorName', 'duration', 'lap', 'driverFullName']
+        hover_data=['constructorName', 'duration', 'lap', 'driverFullName'],
+        
+    )
+    fig.update_layout(
+        title="Tiempos de pitstop",
+        xaxis_title="Constructor",
+        yaxis_title="Duración en segundos",
+        legend_title='Constructores'
     )
     fig.update_traces(quartilemethod="exclusive")
+    # Mostrar el gráfico en Streamlit
     st.plotly_chart(fig)

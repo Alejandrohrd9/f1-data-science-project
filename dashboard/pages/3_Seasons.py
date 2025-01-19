@@ -3,18 +3,18 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(
-    page_title="Standings",
-)
-st.title('Clasificaciones')
+# Page setup
+st.set_page_config(page_title="Temporadas", page_icon="🏁")
+st.title('🏁 Clasificaciones y Distribuciones de la Temporada de F1')
+st.markdown("""Aquí podrás explorar las clasificaciones completas de los pilotos y constructores durante una temporada específica. 
+Además, podrás analizar como se han distribuído los podiums y las victorias entre los pilotos para esa temporada""")
 
+# Function to load datasets
 def load_data(file_path):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(current_dir, file_path)
     results_data = pd.read_csv(data_path)
     return results_data
-
-results_data = load_data('../../data/race_and_sprint_results_2000-2024.csv')
 
 # Constructor color mapping
 constructor_color_dict = {
@@ -43,19 +43,20 @@ constructor_color_dict = {
     'Williams': '#0046A3'         
 }
 
-
+# Load race and sprint dataset results
+results_data = load_data('../../data/race_and_sprint_results_2000-2024.csv')
 seasons = sorted(results_data['season'].unique(), reverse=True)
 
+# Season selector
 selected_season = st.selectbox(
     "Seleccione una temporada:",
     seasons,
     index=None,
 )
-
 st.write("Temporada:", selected_season)
 
 if selected_season:
-    ## Drivers ##
+    ## Drivers plot ##
     # Order by season, round, driverId
     results_data = results_data.sort_values(by=['season', 'round', 'driverId'])
 
@@ -66,7 +67,7 @@ if selected_season:
     season_df = results_data[results_data['season'] == selected_season]
     season_df['driverFullName'] = season_df['driverName'] + " " + season_df['driverSurname']
 
-    st.header(f"Clasificaciones para la temporada {selected_season}")
+    # st.header(f"Clasificaciones para la temporada {selected_season}")
 
     sorted_drivers = season_df.groupby('driverFullName')['cumulative_points'].max().sort_values(ascending=False).index
 
@@ -76,7 +77,7 @@ if selected_season:
                 y='cumulative_points', 
                 color='driverFullName', 
                 markers=True, 
-                title=f'Puntos ganados por piloto en cada carrera de la temporada {selected_season}',
+                title=f'Puntos ganados por piloto en cada carrera para la temporada {selected_season}',
                 labels={'circuitName': 'Gran Premio', 'cumulative_points': 'Puntos Ganados', 'driverFullName': 'Piloto'},
                 category_orders={'driverFullName': sorted_drivers})  # Sort legend by accumulated points
 
@@ -93,44 +94,6 @@ if selected_season:
     st.plotly_chart(fig)
 
 
-    #### Wins and podiums ###
-    wins_podiums_col_1, wins_podiums_col_2 = st.columns(2)
-    wins = season_df[season_df['position'] == 1]
-    grouped_wins = wins.groupby(['driverCode', 'driverName', 'driverSurname']).size().reset_index(name='Wins')
-    grouped_wins = grouped_wins.sort_values(by='Wins', ascending=False)
-    grouped_wins['driverFullName'] = grouped_wins['driverName'] + " " + grouped_wins['driverSurname']
-    fig = px.pie(
-        grouped_wins,
-        names='driverCode',
-        values='Wins',
-        title="Distribución de Victorias por Piloto",
-        hole=0.2
-    )
-    fig.update_layout(
-        height=350
-    )
-    with wins_podiums_col_1:
-        st.plotly_chart(fig)
-
-
-    podiums = season_df[season_df['position'] < 4]
-    grouped_podiums = podiums.groupby(['driverCode', 'driverName', 'driverSurname']).size().reset_index(name='Podiums')
-    grouped_podiums = grouped_podiums.sort_values(by='Podiums', ascending=False)
-    grouped_podiums['driverFullName'] = grouped_podiums['driverName'] + " " + grouped_podiums['driverSurname']
-    fig = px.pie(
-        grouped_podiums,
-        names='driverCode',  
-        values='Podiums',  
-        title="Distribución de Podiums por Piloto",
-        hole=0.2
-    )
-    fig.update_layout(
-        height=350
-    )
-    with wins_podiums_col_2:
-        st.plotly_chart(fig)
-
-
     ### Constructors ###    
     columns_for_constructos = ['season', 'constructorId', 'constructorName', 'constructorNationality', 'points', 'weekendPoints']
     filtered_constructors_df = season_df[columns_for_constructos].copy()
@@ -143,7 +106,7 @@ if selected_season:
         x='weekendPoints', 
         y='constructorName', 
         orientation='h',
-        title=f'Clasificación de constructores en la temporada {selected_season}',
+        title=f'Clasificación de constructores para la temporada {selected_season}',
         labels={'weekendPoints': 'Points', 'constructorName': 'Constructor'},
         color='constructorName',
         color_discrete_map=constructor_color_dict,
@@ -152,3 +115,43 @@ if selected_season:
     # Display the plot in Streamlit
     st.plotly_chart(fig_constructors)
 
+
+    #### Wins and podiums plots ###
+    ## Wins
+    wins_podiums_col_1, wins_podiums_col_2 = st.columns(2)
+    wins = season_df[season_df['position'] == 1]
+    grouped_wins = wins.groupby(['driverCode', 'driverName', 'driverSurname']).size().reset_index(name='Wins')
+    grouped_wins = grouped_wins.sort_values(by='Wins', ascending=False)
+    grouped_wins['driverFullName'] = grouped_wins['driverName'] + " " + grouped_wins['driverSurname']
+
+    fig = px.pie(
+        grouped_wins,
+        names='driverCode',
+        values='Wins',
+        title="Distribución de victorias por piloto",
+        hole=0.2
+    )
+    
+    fig.update_layout(
+        height=350
+    )
+    with wins_podiums_col_1:
+        st.plotly_chart(fig)
+
+    ## Podiums: position < 4
+    podiums = season_df[season_df['position'] < 4]
+    grouped_podiums = podiums.groupby(['driverCode', 'driverName', 'driverSurname']).size().reset_index(name='Podiums')
+    grouped_podiums = grouped_podiums.sort_values(by='Podiums', ascending=False)
+    grouped_podiums['driverFullName'] = grouped_podiums['driverName'] + " " + grouped_podiums['driverSurname']
+    fig = px.pie(
+        grouped_podiums,
+        names='driverCode',  
+        values='Podiums',  
+        title="Distribución de podiums por piloto",
+        hole=0.2
+    )
+    fig.update_layout(
+        height=350
+    )
+    with wins_podiums_col_2:
+        st.plotly_chart(fig)
