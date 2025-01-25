@@ -3,20 +3,20 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Page setup
+# Configuración de página
 st.set_page_config(page_title="Temporadas", page_icon="🏁")
 st.title('🏁 Clasificaciones y Distribuciones de la Temporada de F1')
-st.markdown("""Aquí podrás explorar las clasificaciones completas de los pilotos y constructores durante una temporada específica. 
+st.markdown("""En esta página podrás explorar las clasificaciones completas de los pilotos y constructores durante una temporada específica, considerando los puntos obtenidos en carreras regulares como en carreras al sprint. 
 Además, podrás analizar como se han distribuído los podiums y las victorias entre los pilotos para esa temporada""")
 
-# Function to load datasets
+# Función para cargar el conjunto de datos
 def load_data(file_path):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(current_dir, file_path)
     results_data = pd.read_csv(data_path)
     return results_data
 
-# Constructor color mapping
+# Colores para los constructores
 constructor_color_dict = {
     'Alfa Romeo': '#9C2D2C',      
     'AlphaTauri': '#1E1E1E',     
@@ -43,11 +43,11 @@ constructor_color_dict = {
     'Williams': '#0046A3'         
 }
 
-# Load race and sprint dataset results
+# Cargar conjunto de datos que contiene los resultados de las pruebas
 results_data = load_data('../../data/race_and_sprint_results_2000-2024.csv')
 seasons = sorted(results_data['season'].unique(), reverse=True)
 
-# Season selector
+# Selector de temporada
 selected_season = st.selectbox(
     "Seleccione una temporada:",
     seasons,
@@ -55,32 +55,37 @@ selected_season = st.selectbox(
 )
 st.write("Temporada:", selected_season)
 
+
 if selected_season:
-    ## Drivers plot ##
+    ## Clasificación de pilotos ##
+    st.subheader("Clasificación pilotos", divider="gray")
+    st.markdown("""Este gráfico de líneas muestra la evolución de puntos obtenidos por piloto a lo largo de la temporada.""")
+
     # Order by season, round, driverId
     results_data = results_data.sort_values(by=['season', 'round', 'driverId'])
 
-    # Calculate accumulated by drivers per season
+    # Calcular el número de puntos obtenidos por piloto en cada fin de semana
     results_data['cumulative_points'] = results_data.groupby(['season','driverId'])['weekendPoints'].cumsum()
 
-    # Filter data for season 2024
+    # Filtrar por temporada
     season_df = results_data[results_data['season'] == selected_season]
     season_df['driverFullName'] = season_df['driverName'] + " " + season_df['driverSurname']
 
-    # st.header(f"Clasificaciones para la temporada {selected_season}")
-
+    # Obtener el valor máximo por piloto
     sorted_drivers = season_df.groupby('driverFullName')['cumulative_points'].max().sort_values(ascending=False).index
 
-    # Plotting using Plotly Express
+    # Crear gráfico con plotly. Gráfico de líneas
     fig = px.line(season_df, 
-                x='circuitName', 
-                y='cumulative_points', 
-                color='driverFullName', 
-                markers=True, 
-                title=f'Puntos ganados por piloto en cada carrera para la temporada {selected_season}',
-                labels={'circuitName': 'Gran Premio', 'cumulative_points': 'Puntos Ganados', 'driverFullName': 'Piloto'},
-                category_orders={'driverFullName': sorted_drivers})  # Sort legend by accumulated points
+        x='circuitName', 
+        y='cumulative_points', 
+        color='driverFullName', 
+        markers=True, 
+        title=f'Puntos ganados por piloto en cada carrera para la temporada {selected_season}',
+        labels={'circuitName': 'Gran Premio', 'cumulative_points': 'Puntos Ganados', 'driverFullName': 'Pilotos'},
+        category_orders={'driverFullName': sorted_drivers} # Ordenar por puntos ganados
+    )  
 
+    # Ajustar más detalles gráfico
     fig.update_layout(
         height=600, 
         legend=dict(
@@ -90,40 +95,53 @@ if selected_season:
         )
     )
 
-    # Display the plot in Streamlit
+    # Mostrar gráfico con Streamlit
     st.plotly_chart(fig)
 
 
-    ### Constructors ###    
+    ## Clasificación de constructores ##    
+    st.subheader("Clasificación constructores", divider="gray")
+    st.markdown("""Este gráfico de barras muestra la evolución de puntos obtenidos por constructores a lo largo de la temporada, a partir de los puntos conseguidos por los pilotos.""")
+
+    # Preparar conjunto de datos
     columns_for_constructos = ['season', 'constructorId', 'constructorName', 'constructorNationality', 'points', 'weekendPoints']
     filtered_constructors_df = season_df[columns_for_constructos].copy()
 
+    # Agrupar por constructor y seleccionamos los puntos obtenidos
     grouped_constructors_df = filtered_constructors_df.groupby(['season','constructorId', 'constructorName'])['weekendPoints'].sum().reset_index()
     ordered_constructors_df = grouped_constructors_df.sort_values(by='weekendPoints', ascending=False)
 
+    # Crear gráfico de barras
     fig_constructors = px.bar(
         ordered_constructors_df, 
         x='weekendPoints', 
         y='constructorName', 
-        orientation='h',
+        orientation='h', # Barras horizontales
         title=f'Clasificación de constructores para la temporada {selected_season}',
-        labels={'weekendPoints': 'Points', 'constructorName': 'Constructor'},
+        labels={'weekendPoints': 'Puntos', 'constructorName': 'Constructores'},
         color='constructorName',
         color_discrete_map=constructor_color_dict,
-        category_orders={'constructorName': ordered_constructors_df}
+        category_orders={'constructorName': ordered_constructors_df} # Ordernar por puntos 
     )
-    # Display the plot in Streamlit
+    # Mostrar gráfico con Streamlit
     st.plotly_chart(fig_constructors)
 
 
-    #### Wins and podiums plots ###
-    ## Wins
+    ### Victorias y podiums ###
+    st.subheader("Distribución de victorias y podiums", divider="gray")
+    st.markdown("""En esta sección se muestra con detalle en un primer gráfico, las victorias obtenidas por pilotos, y en un segundo gráfico, los pilotos que han subido más veces al podium para una temporada.""")
+
+    ## Victorias
+    # Los siguientes gráficos se muestran en formato columna
     wins_podiums_col_1, wins_podiums_col_2 = st.columns(2)
+    # Filtrar para obtener las filas cuyo position sea igual a 1, de este modo se obtienen las victorias
     wins = season_df[season_df['position'] == 1]
+    # Obtener número de victorias por piloto
     grouped_wins = wins.groupby(['driverCode', 'driverName', 'driverSurname']).size().reset_index(name='Wins')
     grouped_wins = grouped_wins.sort_values(by='Wins', ascending=False)
     grouped_wins['driverFullName'] = grouped_wins['driverName'] + " " + grouped_wins['driverSurname']
 
+    # Crear gráfico Pie
     fig = px.pie(
         grouped_wins,
         names='driverCode',
@@ -132,17 +150,24 @@ if selected_season:
         hole=0.2
     )
     
+    # Ajustar gráfico
     fig.update_layout(
         height=350
     )
+    # Mostrar gráfico en la primera columna dentro de la págia
     with wins_podiums_col_1:
         st.plotly_chart(fig)
 
+
     ## Podiums: position < 4
+    # Filtrar para obtener las filas cuyo position sea igual inferior a 4 para obtener las filas cuyas posiciones correspondan a las de podium
     podiums = season_df[season_df['position'] < 4]
+    # Obtener número de podiums por piloto
     grouped_podiums = podiums.groupby(['driverCode', 'driverName', 'driverSurname']).size().reset_index(name='Podiums')
     grouped_podiums = grouped_podiums.sort_values(by='Podiums', ascending=False)
     grouped_podiums['driverFullName'] = grouped_podiums['driverName'] + " " + grouped_podiums['driverSurname']
+    
+    # Crear gráfico Pie
     fig = px.pie(
         grouped_podiums,
         names='driverCode',  
@@ -150,8 +175,11 @@ if selected_season:
         title="Distribución de podiums por piloto",
         hole=0.2
     )
+
+    # Ajustar gráfico
     fig.update_layout(
         height=350
     )
+    # Mostrar gráfico en la segunda columna dentro de la págia
     with wins_podiums_col_2:
         st.plotly_chart(fig)
