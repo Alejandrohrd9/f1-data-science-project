@@ -59,4 +59,4 @@ streamlit run dashboard/1_Home.py
 ```
 
 ## Dashboard en streamlit
-https://f1-data-science-project-syn2bq6ubtyvvc3jzqfvcg.streamlit.app/
+https://f1-data-science-project-qnayh2cri98a8xgtmymmvw.streamlit.app/
