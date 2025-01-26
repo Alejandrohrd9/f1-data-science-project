@@ -17,7 +17,7 @@ st.markdown("""
     -  Ganancia y pérdida de posiciones por piloto 
     -  Estrategia de neumáticos utilizada durante la carrera 
     -  Número medio de vueltas por neumáticos utilizado durante la carrera 
-    -  Tiempos de vuelta por pilotos y cómo de consistente han sido 
+    -  Tiempos de vuelta por pilotos y cómo de consistentes han sido 
     -  Tiempos de pitstops 
 """)
 

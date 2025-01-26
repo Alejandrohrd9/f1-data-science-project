@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Circuits", page_icon="🏁")
 st.title('🏁 Circuitos')
 st.markdown("""En esta página se puede visualizar los circuitos que han acogido un Gran Premio de Fórmula 1 desde la temporada 2000. En un primer mapa se muestran todos los circuitos,
-resaltando los de la temporada de 2024, y un segundo mapa que tras, tras filtrar por temporada, muestra los circuitos correspondientes a esa temporada.""")
+resaltando los de la temporada 2024, y un segundo mapa que, tras filtrar por temporada, muestra los circuitos correspondientes a la temporada seleccionada.""")
 
 # Función para cargar el conjunto de datos
 def load_data():
