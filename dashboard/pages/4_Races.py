@@ -72,7 +72,8 @@ constructor_color_dict = {
 }
 
 # Selector de temporada
-seasons = sorted(circuits_data['season'].unique(), reverse=True)
+#seasons = sorted(circuits_data['season'].unique(), reverse=True)
+seasons = range(2018,2025) # Data available for the page from 2018
 selected_season = st.selectbox(
     "Seleccione una temporada:",
     seasons,
