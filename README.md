@@ -17,6 +17,17 @@ Proyecto/
 ```
 
 ## Características Principales
+Este proyecto se organiza en dos partes principales, combinando el análisis de datos y su representación visual para proporcionar una visión completa y accesible:
+
+**1. Análisis y Modelado de Datos (Notebooks):**
+Extracción, procesamiento y limpieza de datos acorde a los requerimientos del proyecto.
+Exploración de datos mediante análisis estadísticos y visualizaciones, con el objetivo de identificar patrones y tendencias clave.
+Implementación de técnicas de Machine Learning para realizar predicciones según los datos analizados.
+
+**2.Dashboard con Streamlit:**
+Creación de un dashboard interactivo utilizando Streamlit para visualizar los resultados del análisis.
+Integración de los datos procesados en los Notebooks, permitiendo a los usuarios explorar gráficas y mapas de lo descubierto a través del proyecto.
+
 
 ## Requisitos
 
@@ -58,5 +69,5 @@ Para iniciar el dashboad, ejecuta el siguiente comando:
 streamlit run dashboard/1_Home.py
 ```
 
-## Dashboard en streamlit
+## Dashboard en Streamlit
 https://f1-data-science-project-qnayh2cri98a8xgtmymmvw.streamlit.app/
