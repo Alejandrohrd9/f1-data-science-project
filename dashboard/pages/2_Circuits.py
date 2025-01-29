@@ -93,7 +93,8 @@ if selected_season:
             "<b>Circuito:</b> %{hovertext}<br>"  # hovertext proviene de hover_name (circuitName)
             "<b>País:</b> %{customdata[0]}<br>"  # customdata[1] es 'country'
             "<extra></extra>"
-        )
+        ),
+        marker=dict(color='red', size=10)
     )
 
     # Ajustar más detalles mapa
